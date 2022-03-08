@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.demandware.com/xml/impex/catalog/2006-10-31" catalog-id="apparel-catalog">
+    <header>
+        <image-settings>
+            <internal-location base-path="/images"/>
+            <view-types>
+                <view-type>large</view-type>
+                <view-type>medium</view-type>
+                <view-type>small</view-type>
+                <view-type>swatch</view-type>
+                <view-type>hi-res</view-type>
+            </view-types>
+            <variation-attribute-id>color</variation-attribute-id>
+            <alt-pattern>${productname}, ${variationvalue}, ${viewtype}</alt-pattern>
+            <title-pattern>${productname}, ${variationvalue}</title-pattern>
+        </image-settings>
+    </header>
+
+    <product product-id="clydeproduct01">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">clydeContractProduct01</display-name>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>false</searchable-flag>
+        <tax-class-id>clydeZeroTax</tax-class-id>
+        <page-attributes/>
+        <classification-category catalog-id="storefront-catalog-en">root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="clydeproduct02">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">clydeContractProduct02</display-name>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>false</searchable-flag>
+        <tax-class-id>clydeZeroTax</tax-class-id>
+        <page-attributes/>
+        <classification-category catalog-id="storefront-catalog-en">root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+  <product product-id="clydeproduct03">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">clydeContractProduct03</display-name>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>false</searchable-flag>
+        <tax-class-id>clydeZeroTax</tax-class-id>
+        <page-attributes/>
+        <classification-category catalog-id="storefront-catalog-en">root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+    
+    <product product-id="clydeproduct04">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">clydeContractProduct04</display-name>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>false</searchable-flag>
+        <tax-class-id>clydeZeroTax</tax-class-id>
+        <page-attributes/>
+        <classification-category catalog-id="storefront-catalog-en">root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+    
+      <product product-id="clydeproduct05">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">clydeContractProduct05</display-name>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>false</searchable-flag>
+        <tax-class-id>clydeZeroTax</tax-class-id>
+        <page-attributes/>
+        <classification-category catalog-id="storefront-catalog-en">root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+    
+     <product product-id="clydeproduct06">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">clydeContractProduct06</display-name>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>false</searchable-flag>
+        <tax-class-id>clydeZeroTax</tax-class-id>
+        <page-attributes/>
+        <classification-category catalog-id="storefront-catalog-en">root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="clydeproduct07">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">clydeContractProduct07</display-name>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>false</searchable-flag>
+        <tax-class-id>clydeZeroTax</tax-class-id>
+        <page-attributes/>
+        <classification-category catalog-id="storefront-catalog-en">root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+    
+    <product product-id="clydeproduct08">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">clydeContractProduct08</display-name>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>false</searchable-flag>
+        <tax-class-id>clydeZeroTax</tax-class-id>
+        <page-attributes/>
+        <classification-category catalog-id="storefront-catalog-en">root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+    
+    <product product-id="clydeproduct09">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">clydeContractProduct09</display-name>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>false</searchable-flag>
+        <tax-class-id>clydeZeroTax</tax-class-id>
+        <page-attributes/>
+        <classification-category catalog-id="storefront-catalog-en">root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="clydeproduct10">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">clydeContractProduct10</display-name>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>false</searchable-flag>
+        <tax-class-id>clydeZeroTax</tax-class-id>
+        <page-attributes/>
+        <classification-category catalog-id="storefront-catalog-en">root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+    
+    <product product-id="clydeproduct11">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">clydeContractProduct11</display-name>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>false</searchable-flag>
+        <tax-class-id>clydeZeroTax</tax-class-id>
+        <page-attributes/>
+        <classification-category catalog-id="storefront-catalog-en">root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+    
+  <product product-id="clydeproduct12">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">clydeContractProduct12</display-name>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>false</searchable-flag>
+        <tax-class-id>clydeZeroTax</tax-class-id>
+        <page-attributes/>
+        <classification-category catalog-id="storefront-catalog-en">root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+    
+  <product product-id="clydeproduct13">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">clydeContractProduct13</display-name>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>false</searchable-flag>
+        <tax-class-id>clydeZeroTax</tax-class-id>
+        <page-attributes/>
+        <classification-category catalog-id="storefront-catalog-en">root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+  <product product-id="clydeproduct14">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">clydeContractProduct14</display-name>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>false</searchable-flag>
+        <tax-class-id>clydeZeroTax</tax-class-id>
+        <page-attributes/>
+        <classification-category catalog-id="storefront-catalog-en">root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+    
+ <product product-id="clydeproduct15">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">clydeContractProduct15</display-name>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>false</searchable-flag>
+        <tax-class-id>clydeZeroTax</tax-class-id>
+        <page-attributes/>
+        <classification-category catalog-id="storefront-catalog-en">root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+ <product product-id="clydeproduct16">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">clydeContractProduct16</display-name>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>false</searchable-flag>
+        <tax-class-id>clydeZeroTax</tax-class-id>
+        <page-attributes/>
+        <classification-category catalog-id="storefront-catalog-en">root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+    
+    <product product-id="clydeproduct17">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">clydeContractProduct17</display-name>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>false</searchable-flag>
+        <tax-class-id>clydeZeroTax</tax-class-id>
+        <page-attributes/>
+        <classification-category catalog-id="storefront-catalog-en">root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+    
+ <product product-id="clydeproduct18">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">clydeContractProduct18</display-name>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>false</searchable-flag>
+        <tax-class-id>clydeZeroTax</tax-class-id>
+        <page-attributes/>
+        <classification-category catalog-id="storefront-catalog-en">root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+    
+    <product product-id="clydeproduct19">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">clydeContractProduct19</display-name>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>false</searchable-flag>
+        <tax-class-id>clydeZeroTax</tax-class-id>
+        <page-attributes/>
+        <classification-category catalog-id="storefront-catalog-en">root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+    
+    <product product-id="clydeproduct20">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">clydeContractProduct20</display-name>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>false</searchable-flag>
+        <tax-class-id>clydeZeroTax</tax-class-id>
+        <page-attributes/>
+        <classification-category catalog-id="storefront-catalog-en">root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+</catalog>
