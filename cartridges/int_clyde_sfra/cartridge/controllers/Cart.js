@@ -132,5 +132,37 @@ server.append('UpdateQuantity', function (req, res, next) {
     return next();
 });
 
+server.post('RemoveClydeProduct', function (req, res, next) {
+    var BasketMgr = require('dw/order/BasketMgr');
+    var currentBasket = BasketMgr.getCurrentBasket();
+    var productLineItem = null;
+    var optionProductLineItem = null;
+    var items = currentBasket.productLineItems.iterator();
+    var productUUID = req.querystring.uuid;
+    while (items.hasNext()) {
+        var item = items.next();
+        if (item.UUID === productUUID) {
+            productLineItem = item;
+            break;
+        }
+    }
+    if (productLineItem) {
+        var optionLineItems = productLineItem.optionProductLineItems.iterator();
+        var Transaction = require('dw/system/Transaction');
+        Transaction.wrap(function () {
+            while (optionLineItems.hasNext()) {
+                var optionLineItem = optionLineItems.next();
+                if (optionLineItem) {
+                    optionProductLineItem = optionLineItem;
+                    currentBasket.removeProductLineItem(optionProductLineItem);
+                    break;
+                }
+            }
+        });
+    } res.json({
+        success: optionProductLineItem || false
+    });
+    next();
+});
 
 module.exports = server.exports();

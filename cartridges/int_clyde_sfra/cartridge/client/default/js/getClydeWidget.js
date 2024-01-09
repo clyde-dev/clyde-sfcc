@@ -6,7 +6,7 @@ var clydeWidget;
 var elem = document.querySelector('.product-number span');
 var productId = elem ? elem.textContent : null;
 
-if (window.ClydeSitePreferences && !Clyde.checkReady() && productId) {
+if (window.ClydeSitePreferences && window.ClydeSitePreferences.CLYDE_WIDGET_ENABLED === true && Clyde && !Clyde.checkReady() && productId) {
     Clyde.init({
         key: ClydeSitePreferences.CLYDE_API_KEY,
         defaultSelector: '#clyde-cta',
@@ -36,7 +36,7 @@ clydeWidget = {
         return form;
     },
     getClydeVariantChange: function (variantId) {
-        if (Clyde && variantId) {
+        if (window.ClydeSitePreferences.CLYDE_WIDGET_ENABLED === true && Clyde && variantId) {
             var previousId = Clyde.getActiveProduct() ? Clyde.getActiveProduct().sku : null;
             // If there was no active variant, or the previous one is different from the new one
             if (previousId && previousId !== variantId) {

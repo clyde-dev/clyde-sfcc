@@ -172,6 +172,7 @@ var CartModel = AbstractModel.extend({
      * @param {dw.catalog.ProductOptionModel} productOptionModel - The option model of the product that is to be added to the basket.
      */
     addProductItem: function (product, quantity, productOptionModel, params) {
+        var Site = require('dw/system/Site');
         var cart = this;
         Transaction.wrap(function () {
             var i;
@@ -218,6 +219,7 @@ var CartModel = AbstractModel.extend({
 
                     productLineItem = cart.createProductLineItem(product, productOptionModel, shipment);
                     addClydeContract.addClydeContractAttributes(clydeSKU, cart, params.pid.stringValue);
+                    
                     if (quantity) {
                         productLineItem.setQuantityValue(quantity);
                     }
@@ -246,6 +248,19 @@ var CartModel = AbstractModel.extend({
                         }
                     }
                 }
+                // remove clyde warranty from cart if Clyde widget is disabled
+                if (productLineItem && !Site.current.preferences.custom.clydeWidgetDisplay || (Site.current.preferences.custom.clydeWidgetDisplay && !Site.current.preferences.custom.clydeSkipGeoIP)) {
+                    var optionLineItems = productLineItem.optionProductLineItems.iterator();
+                    while (optionLineItems.hasNext()) {
+                        var optionLineItem = optionLineItems.next();
+                        if (optionLineItem && optionLineItem.optionID === 'clydeWarranty') {
+                            var optionProductLineItem = optionLineItem;
+                            cart.removeProductLineItem(optionProductLineItem);
+                            break;
+                        }
+                    }
+                }
+
                 cart.calculate();
             }
         });

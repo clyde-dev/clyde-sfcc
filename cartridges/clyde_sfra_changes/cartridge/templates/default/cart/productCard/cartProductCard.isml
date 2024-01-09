@@ -56,6 +56,9 @@
                         <p class="line-item-attributes">${(option.lineItemText)}</p>
                         <p class="line-item-attributes clyde-option-price" data-option-id="${option.optionId}" data-value-id="${option.selectedValueId}" data-uuid="${lineItem.UUID}">${(option.price)}</p>
                     </div>
+                    <div class="hidden-md-down">
+                        <isinclude template="components/deleteClydeProductButton" />
+                    </div>
                 </div>
             </div>
         </isif>

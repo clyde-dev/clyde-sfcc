@@ -359,6 +359,7 @@
 														<div class="product-list-item">
 															${dw.util.StringUtils.formatMoney(oli.price)}
 														</div>
+														<button type="button" data-url="${URLUtils.url('Cart-RemoveClydeProduct')}" name="deleteClydeProduct" class="button-text delete-clyde-product" data-name="${oli.lineItemText}" data-uuid="${lineItem.UUID}" data-clydeuuid="${oli.UUID}"><span>${Resource.msg('global.remove','locale',null)}</span></button>
 													</td>
 												</tr>
 											</isif>

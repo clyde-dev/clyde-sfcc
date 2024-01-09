@@ -242,7 +242,7 @@ function submitForm() {
                 CouponError: formResult.CouponError
             }).render('checkout/cart/cart');
         } else {
-           response.redirect(URLUtils.https('Cart-Show'));
+            response.redirect(URLUtils.https('Cart-Show'));
         }
     }
 }
@@ -436,6 +436,41 @@ function addCouponJson() {
     }
 }
 
+function removeClydeProduct() {
+    var BasketMgr = require('dw/order/BasketMgr');
+    var currentBasket = BasketMgr.getCurrentBasket();
+    var productLineItem = null;
+    var optionProductLineItem = null;
+    var items = currentBasket.productLineItems.iterator();
+    var productUUID = request.httpParameterMap.uuid.stringValue;
+    var clydeUUID = request.httpParameterMap.clydeuuid.stringValue;
+    while (items.hasNext()) {
+        var item = items.next();
+        if (item.UUID === productUUID) {
+            productLineItem = item;
+            break;
+        }
+    }
+    if (productLineItem) {
+        var Transaction = require('dw/system/Transaction');
+        var optionLineItems = productLineItem.optionProductLineItems.iterator();
+        Transaction.wrap(function () {
+            while (optionLineItems.hasNext()) {
+                var optionLineItem = optionLineItems.next();
+                if (optionLineItem && optionLineItem.UUID === clydeUUID) {
+                    optionProductLineItem = optionLineItem;
+                    currentBasket.removeProductLineItem(optionProductLineItem);
+                    break;
+                }
+            }
+        });
+    }
+    var Response = require('*/cartridge/scripts/util/Response');
+    Response.renderJSON({
+        success: optionProductLineItem || false
+    });
+}
+
 /*
 * Module exports
 */
@@ -469,3 +504,5 @@ exports.AddToWishlist = guard.ensure(['get', 'https', 'loggedIn'], addToWishlist
 /** Adds bonus product to cart.
  * @see {@link module:controllers/Cart~addBonusProductJson} */
 exports.AddBonusProduct = guard.ensure(['post'], addBonusProductJson);
+
+exports.RemoveClydeProduct = guard.ensure(['post'], removeClydeProduct);
